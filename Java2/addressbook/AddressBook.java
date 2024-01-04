@@ -56,7 +56,7 @@ public class AddressBook {
     private void displayContacts() {
         System.out.println("All Contacts in the Address Book:");
         for (Map.Entry<String, Contact> entry : contacts.entrySet()) {
-            System.out.println("Name: " + entry.getKey() + ", Phone: " + entry.getValue().getPhone());
+            System.out.println("Contact Name: " + entry.getKey() + ", Phone Number: " + entry.getValue().getPhone());
         }
     }
 }
